@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+}
+
+.mainpage-wrapper {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+  background-color: #edd3d3; /* Optional background color */
+}
+
+.mainpage-container {
+  text-align: center;
+  background: rgb(255, 253, 253);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 400px; /* Set a fixed width */
+}
+.title {
+  margin-top: 30px;
+  font-size: 45px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+input[type="text"] {
+  border: 2px solid;
+  border-radius: 10px;
+  width: 340px;
+  padding: 9px;
+  font-size: 22px;
+}
+
+input[type="text"]::placeholder {
+  font-size: 18px;
+  opacity: 0.6;
+  font-style: italic;
+}
+input[type="submit"] {
+  border-radius: 30px;
+  background-color: palevioletred;
+  color: white;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  padding: 10px 25px;
+  font-size: 22px;
+}
+
+/* list of meals styling */
+.meals {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 28px;
+}
+
+.meal-card {
+  text-align: center;
+  padding: 5px;
+}
+.meals img {
+  width: 100%;
+  height: 300px;
+  border-radius: 12px;
+  border: 1px solid rgb(107, 105, 105);
+}
+
+.meals p {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.meals button {
+  border-radius: 30px;
+  background-color: palevioletred;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 20px;
+  width: 120px;
+  margin-top: 10px;
+}
+.meals button:hover {
+  background: rgb(232, 97, 142);
+  color: black;
+}

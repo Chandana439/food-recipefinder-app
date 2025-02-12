@@ -1,0 +1,95 @@
+/* mealinfo styles */
+.mealinfo {
+  background-color: rgb(198, 157, 171);
+  margin: 0;
+  padding: 50px 20px;
+}
+hr {
+  width: 90%; /* Adjust width to leave space on both sides */
+  margin: 10px auto; /* Centers the line horizontally */
+  border: none; /* Remove default border */
+  height: 2px; /* Thickness of the line */
+  background-color: gray; /* Color of the line */
+}
+.recipe-container {
+  width: 60%;
+  padding: 10px;
+  margin-left: 250px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  border-radius: 80px;
+}
+
+.recipe-title {
+  font-size: 2.7rem;
+  padding: 10px;
+  text-align: center;
+  color: brown;
+  font-weight: 500;
+}
+
+.recipe-image {
+  width: 90%;
+  height: 400px;
+}
+.recipe-image img {
+  width: 100%;
+  height: 100%;
+  margin-top: 15px;
+  margin-left: 38px;
+  object-fit: cover; /* Ensures the image fills the box properly */
+  border-radius: 10px;
+}
+.ingredients {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.ingredients h2 {
+  margin: 0;
+  margin-left: 20px;
+  color: brown;
+  font-size: 26px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.ingredients ul {
+  list-style-type: decimal;
+  line-height: 1.9em;
+}
+
+.ingredients li {
+  font-size: 18px;
+  gap: 20px;
+  padding-left: 10px;
+}
+
+.ingredients li::marker {
+  color: brown;
+  font-weight: bold;
+}
+.recipe-instructions {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.recipe-instructions h2 {
+  margin: 0;
+  margin-left: 20px;
+  color: brown;
+  font-size: 26px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.recipe-instructions p {
+  font-size: 17px;
+  margin: 5px 0;
+  padding-left: 20px;
+  padding-right: 45px;
+  line-height: 30px;
+  text-align: justify;
+}
